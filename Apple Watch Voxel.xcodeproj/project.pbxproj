@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A0948E702F10564100F00BDC /* watch_app Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A0948E6F2F10564100F00BDC /* watch_app Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A0948E702F10564100F00BDC /* Apple Watch Voxel.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A0948E6F2F10564100F00BDC /* Apple Watch Voxel.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -16,7 +16,7 @@
 			containerPortal = A0948E632F10564100F00BDC /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A0948E6E2F10564100F00BDC;
-			remoteInfo = "watch_app Watch App";
+			remoteInfo = "Apple Watch Voxel";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -27,7 +27,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				A0948E702F10564100F00BDC /* watch_app Watch App.app in Embed Watch Content */,
+				A0948E702F10564100F00BDC /* Apple Watch Voxel.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -35,14 +35,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A0948E692F10564100F00BDC /* watch_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watch_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0948E6F2F10564100F00BDC /* watch_app Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watch_app Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0948E692F10564100F00BDC /* Apple Watch Voxel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple Watch Voxel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0948E6F2F10564100F00BDC /* Apple Watch Voxel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple Watch Voxel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		A0948E732F10564100F00BDC /* watch_app Watch App */ = {
+		A0948E732F10564100F00BDC /* Apple Watch Voxel */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "watch_app Watch App";
+			path = "Apple Watch Voxel";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -61,7 +61,7 @@
 		A0948E622F10564100F00BDC = {
 			isa = PBXGroup;
 			children = (
-				A0948E732F10564100F00BDC /* watch_app Watch App */,
+				A0948E732F10564100F00BDC /* Apple Watch Voxel */,
 				A0948E6A2F10564100F00BDC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,8 +69,8 @@
 		A0948E6A2F10564100F00BDC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A0948E692F10564100F00BDC /* watch_app.app */,
-				A0948E6F2F10564100F00BDC /* watch_app Watch App.app */,
+				A0948E692F10564100F00BDC /* Apple Watch Voxel.app */,
+				A0948E6F2F10564100F00BDC /* Apple Watch Voxel.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,9 +78,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A0948E682F10564100F00BDC /* watch_app */ = {
+		A0948E682F10564100F00BDC /* Apple Watch Voxel Container */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A0948E802F10564500F00BDC /* Build configuration list for PBXNativeTarget "watch_app" */;
+			buildConfigurationList = A0948E802F10564500F00BDC /* Build configuration list for PBXNativeTarget "Apple Watch Voxel Container" */;
 			buildPhases = (
 				A0948E672F10564100F00BDC /* Resources */,
 				A0948E7F2F10564500F00BDC /* Embed Watch Content */,
@@ -90,16 +90,16 @@
 			dependencies = (
 				A0948E722F10564100F00BDC /* PBXTargetDependency */,
 			);
-			name = watch_app;
+			name = "Apple Watch Voxel Container";
 			packageProductDependencies = (
 			);
-			productName = watch_app;
-			productReference = A0948E692F10564100F00BDC /* watch_app.app */;
+			productName = "Apple Watch Voxel";
+			productReference = A0948E692F10564100F00BDC /* Apple Watch Voxel.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
-		A0948E6E2F10564100F00BDC /* watch_app Watch App */ = {
+		A0948E6E2F10564100F00BDC /* Apple Watch Voxel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A0948E7C2F10564500F00BDC /* Build configuration list for PBXNativeTarget "watch_app Watch App" */;
+			buildConfigurationList = A0948E7C2F10564500F00BDC /* Build configuration list for PBXNativeTarget "Apple Watch Voxel" */;
 			buildPhases = (
 				A0948E6B2F10564100F00BDC /* Sources */,
 				A0948E6C2F10564100F00BDC /* Frameworks */,
@@ -110,13 +110,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				A0948E732F10564100F00BDC /* watch_app Watch App */,
+				A0948E732F10564100F00BDC /* Apple Watch Voxel */,
 			);
-			name = "watch_app Watch App";
+			name = "Apple Watch Voxel";
 			packageProductDependencies = (
 			);
-			productName = "watch_app Watch App";
-			productReference = A0948E6F2F10564100F00BDC /* watch_app Watch App.app */;
+			productName = "Apple Watch Voxel";
+			productReference = A0948E6F2F10564100F00BDC /* Apple Watch Voxel.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -137,7 +137,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A0948E662F10564100F00BDC /* Build configuration list for PBXProject "watch_app" */;
+			buildConfigurationList = A0948E662F10564100F00BDC /* Build configuration list for PBXProject "Apple Watch Voxel" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -151,8 +151,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A0948E682F10564100F00BDC /* watch_app */,
-				A0948E6E2F10564100F00BDC /* watch_app Watch App */,
+				A0948E682F10564100F00BDC /* Apple Watch Voxel Container */,
+				A0948E6E2F10564100F00BDC /* Apple Watch Voxel */,
 			);
 		};
 /* End PBXProject section */
@@ -187,7 +187,7 @@
 /* Begin PBXTargetDependency section */
 		A0948E722F10564100F00BDC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A0948E6E2F10564100F00BDC /* watch_app Watch App */;
+			target = A0948E6E2F10564100F00BDC /* Apple Watch Voxel */;
 			targetProxy = A0948E712F10564100F00BDC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -317,7 +317,7 @@
 				DEVELOPMENT_TEAM = 83U4K543NZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = watch_app;
+				INFOPLIST_KEY_CFBundleDisplayName = "Apple Watch Voxel";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -346,7 +346,7 @@
 				DEVELOPMENT_TEAM = 83U4K543NZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = watch_app;
+				INFOPLIST_KEY_CFBundleDisplayName = "Apple Watch Voxel";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -372,7 +372,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 83U4K543NZ;
-				INFOPLIST_KEY_CFBundleDisplayName = watch_app;
+				INFOPLIST_KEY_CFBundleDisplayName = "Apple Watch Voxel";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wbehnke.watch-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -387,7 +387,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 83U4K543NZ;
-				INFOPLIST_KEY_CFBundleDisplayName = watch_app;
+				INFOPLIST_KEY_CFBundleDisplayName = "Apple Watch Voxel";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wbehnke.watch-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -400,7 +400,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A0948E662F10564100F00BDC /* Build configuration list for PBXProject "watch_app" */ = {
+		A0948E662F10564100F00BDC /* Build configuration list for PBXProject "Apple Watch Voxel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A0948E7A2F10564500F00BDC /* Debug */,
@@ -409,7 +409,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A0948E7C2F10564500F00BDC /* Build configuration list for PBXNativeTarget "watch_app Watch App" */ = {
+		A0948E7C2F10564500F00BDC /* Build configuration list for PBXNativeTarget "Apple Watch Voxel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A0948E7D2F10564500F00BDC /* Debug */,
@@ -418,7 +418,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A0948E802F10564500F00BDC /* Build configuration list for PBXNativeTarget "watch_app" */ = {
+		A0948E802F10564500F00BDC /* Build configuration list for PBXNativeTarget "Apple Watch Voxel Container" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A0948E812F10564500F00BDC /* Debug */,

@@ -1,4 +1,4 @@
-# Watch App
+# Apple Watch Voxel
 
 A watchOS voxel-style world editor built with SwiftUI.
 
@@ -15,15 +15,15 @@ A watchOS voxel-style world editor built with SwiftUI.
 
 ## Project Structure
 
-- `watch_app Watch App/ContentView.swift` - world list and navigation
-- `watch_app Watch App/GameView.swift` - isometric editor/game view
-- `watch_app Watch App/ExportViews.swift` - export list and preview UI
-- `watch_app Watch App/WorldModels.swift` - domain models
-- `watch_app Watch App/WorldStore.swift` - world persistence and state
-- `watch_app Watch App/WorldLibrary.swift` - world creation/export helpers
+- `Apple Watch Voxel/ContentView.swift` - world list and navigation
+- `Apple Watch Voxel/GameView.swift` - isometric editor/game view
+- `Apple Watch Voxel/ExportViews.swift` - export list and preview UI
+- `Apple Watch Voxel/WorldModels.swift` - domain models
+- `Apple Watch Voxel/WorldStore.swift` - world persistence and state
+- `Apple Watch Voxel/WorldLibrary.swift` - world creation/export helpers
 
 ## Build
 
 ```bash
-xcodebuild -project watch_app.xcodeproj -scheme "watch_app Watch App" -destination "generic/platform=watchOS" build
+xcodebuild -project "Apple Watch Voxel.xcodeproj" -scheme "Apple Watch Voxel" -destination "generic/platform=watchOS" build
 ```

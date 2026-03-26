@@ -1,6 +1,6 @@
 //
-//  watch_appApp.swift
-//  watch_app Watch App
+//  AppleWatchVoxelApp.swift
+//  Apple Watch Voxel
 //
 //  Created by William Behnke on 2026-01-08.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct watch_app_Watch_AppApp: App {
+struct AppleWatchVoxelApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
